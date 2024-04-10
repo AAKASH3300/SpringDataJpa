@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@AttributeOverrides({ // to match the attribute name with that in the table we use attribute override
+@AttributeOverrides({        // to match the attribute name with that in the table we use attribute override
         @AttributeOverride(
                 name = "name",
                 column = @Column(name = "guardian_name")
